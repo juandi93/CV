@@ -333,14 +333,6 @@ margin-right: 2px;
     
     .contacto .contenido-seccion .fila {
         display:block;
-        position: relative;
-        justify-content: space-around;
-
-    }
-    .contacto .contenido-seccion{
-        display: block;
-        position: relative;
-        justify-content: space-around;
     }
 
 
