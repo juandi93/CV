@@ -295,3 +295,63 @@ margin-right: 2px;
 .contacto .contenido-seccion .fila .col i{
     color:  rgb(146, 23, 23);
 }
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .skills .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion  .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .resumen .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .contacto .contenido-seccion .fila {
+        display:block;
+        position: relative;
+        justify-content: space-around;
+
+    }
+    .contacto .contenido-seccion{
+        display: block;
+        position: relative;
+        justify-content: space-around;
+    }
+
+
+    .resumen .contenido-seccion .info .col p{
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin-right: -4px;
+        margin-left: -6.5px;
+        background-size: cover;
+        padding:  -30px;
+    }
+    }
+
